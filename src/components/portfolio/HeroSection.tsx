@@ -52,7 +52,7 @@ const HeroSection = () => {
               </Button>
 
               <Button variant="outline" asChild className="gap-2">
-                <a href="./Santhosh's__CV.pdf" download="Santhosh_Velmurugan_Resume.pdf">
+                <a href="./Santhosh'sCV.pdf" download="Santhosh_Velmurugan_Resume.pdf">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>
@@ -67,7 +67,7 @@ const HeroSection = () => {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-border shadow-lg bg-gradient-to-br from-muted to-secondary">
               <img
-                src="./profile.jpg"
+                src="./myPhoto.jpg"
                 alt="Santhosh Velmurugan"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
