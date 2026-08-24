@@ -4,6 +4,7 @@ import {
   LayoutDashboard,
   FileSpreadsheet,
   FileText,
+  Bot
 } from 'lucide-react';
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -11,6 +12,24 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
 const projects = [
+  {
+    title: 'UPSC Smart Mentor',
+    description:
+      'Built a full-stack, multi-user AI-powered UPSC preparation platform with React and TypeScript, featuring personalized dashboards, daily current affairs, GS Paper-wise topics, bookmarks, and an AI Mentor. Developed and deployed a Node.js/Express backend to manage AI APIs, scheduled RSS workflows, Telegram delivery, and Google Sheets synchronization, with Supabase authentication and user-specific data.',
+    icon: Bot,
+    tags: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'AI Integration',
+      'Supabase',
+      'REST API',
+      'Automation',
+    ],
+    liveUrl: 'https://upsc-smart-mentor-frontend.vercel.app/',
+    buttonText: 'View Live Demo',
+  },
   {
     title: 'Zorvyn Financial Terminal',
     description:
